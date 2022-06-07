@@ -1,7 +1,18 @@
-# {{ New Group Name }} Charter
+# RAS Terms and Definitions TG Charter
 
-The information in this file should be created as part of the group formation and approved by your sponsoring group.  See the [Chairs Best Practices policy](https://docs.google.com/document/d/1rtXskVd7YyFq74tQ2OrInyM_-OQa228R5UZs5Pm3Vz0/) for more details.
+Hardware based computational threats (deviations from the specified functional or physical behavior) come from a variety of sources (e.g.  imperfections of processes and materials as well as from environmental factors) during:
 
-A good Task Group (TG) charter describes how it achieves filling in a gap defined by the Special Interest Group (SIG) or Committee that spawned it (directly or dotted line). It lists the specific small set of  deliverables it will deliver.
+1. design,
+2. manufacturing, or
+3. field operation of computing systems.
 
-A SIG is an extension of a Committee, in that its only deliverables are strategy, gaps, and prioritizations, and helping spawn other SIGs or TGs to fill the gaps. A good SIG charter spells out the small set of topic areas their strategy will address along with its responsibilities as laid out in this bullet.
+Such deviations are known to jeopardize the correctness and stability of the operation of computing systems. Despite the acknowledged reality of these challenges throughout all eras of computing, consensus on key and even basic terms and definitions evades us and consequently limits cooperation and understanding among researchers and practitioners working at different layers of the computing system stack or different application domains.
+
+The RAS Terms & Definitions TG of RISC-V International will establish a framework of terms and definitions (starting from common ones from research and development domains and adapting them as needed) for:
+
+1. physical mechanisms and processes that generate the threats,
+2. models that bound/frame them,
+3. their effects and manifestations through all hardware and software layers of the computing stack,
+4. means for their effects prediction, avoidance, and recovery.
+
+The terms and definitions will be applicable to RAS interactions to all application domains and system architectures of the RISC-V ecosystem and when necessary, connections (translations'') will be provided to equivalent terms and definitions frequently used in different contexts (debug, safety, etc.). Related RISC-V specifications would incorporate the RAS terms for consistency.
