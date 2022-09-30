@@ -8,7 +8,7 @@ Hardware based computational threats (deviations from the specified functional o
 
 Such deviations are known to jeopardize the correctness and stability of the operation of computing systems. Despite the acknowledged reality of these challenges throughout all eras of computing, consensus on key and even basic terms and definitions evades us and consequently limits cooperation and understanding among researchers and practitioners working at different layers of the computing system stack or different application domains.
 
-The RAS Terms & Definitions TG of RISC-V International will establish a framework of terms and definitions (starting from common ones from research and development domains and adapting them as needed) for:
+The RAS Terms & Definitions TG of RISC-V International will deliver a RAS Architecture Overview document that will establish a framework of terms and definitions (starting from common ones from research and development domains and adapting them as needed) for:
 
 1. physical mechanisms and processes that generate the threats,
 2. models that bound/frame them,
